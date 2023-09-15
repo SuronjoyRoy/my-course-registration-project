@@ -1,0 +1,76 @@
+[
+  {
+  "id": 1,
+  "cover": "https://i.ibb.co/pfLtQnB/Rectangle-2-2.png",
+  "title": "Introduction to C Programming",
+  "text" : "C is a general-purpose high level language that was originally developed by Dennis",
+  "price" : "1500",
+  "reading_time": "1"
+  },
+  {
+  "id": 2,
+  "cover": "https://i.ibb.co/LQhbwTG/Rectangle-2-3.png",
+  "title": "Introduction to Algorithms",
+  "text" : "A comprehensive update of the leading algorithms text, with new material on matchings in bipartite graphs.",
+  "price" : "25000",
+  "reading_time": "3"
+  },
+  {
+  "id": 3,
+  "cover": "https://i.ibb.co/34g0Bgk/Rectangle-2-4.png",
+  "title": "Introduction to C++ for DSA",
+  "text" : "Anyone who wants to have a command over DSA with C++ can opt for this course and .",
+  "price" : "1200",
+  "reading_time": "2"
+  },
+  {
+  "id": 4,
+  "cover": "https://i.ibb.co/tHPMbQK/Rectangle-3.png",
+  "title": "Basic Data Structures",
+  "text" : "Arrays, linked lists, stacks, queues, hash tables, trees, heaps, and graphs",
+  "price" : "2000",
+  "reading_time": "4"
+  },
+  {
+  "id": 5,
+  "cover": "https://i.ibb.co/qD4sMHn/Rectangle-2.png",
+  "title": "Introduction to OOP Python",
+  "text" : "a programming paradigm that uses objects and classes in programming.",
+  "price" : "15000",
+  "reading_time": "5"
+  },
+  {
+  "id": 6,
+  "cover": "https://i.ibb.co/WPMLrTZ/Rectangle-2-5.png",
+  "title": "Software Engineering",
+  "text" : "computer science, computer engineering, and software engineering.",
+  "price" : "1000",
+  "reading_time": "1"
+  },
+  {
+  "id": 7,
+  "cover": "https://i.ibb.co/hc5Gx02/Rectangle-3-1.png",
+  "title": "AWS, Cloud Computing",
+  "text" : "built to work with AWS, making it easier for your team to get set up and be productive.",
+  "price" : "3000",
+  "reading_time": "3"
+  },
+  {
+  "id": 8,
+  "cover": "https://i.ibb.co/5kHKJsM/Rectangle-2-1.png",
+  "title": "Database (MySQL)",
+  "text" : "The full form of MYSQL is My Structured Query Language. It is a popular open-source relational database.",
+  "price" : "1000",
+  "reading_time": "2"
+  },
+  {
+  "id": 4,
+  "cover": "https://i.ibb.co/cD8bqpL/Rectangle-2-6.png",
+  "title": "Problem-Solving Part",
+  "text" : "defining a problem; determining the cause of the problem",
+  "price" : "5000",
+  "reading_time": "1"
+  }
+
+  
+]
