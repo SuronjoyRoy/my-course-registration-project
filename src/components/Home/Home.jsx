@@ -1,3 +1,5 @@
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { useState, useEffect } from "react";
 import { FaDollarSign } from "react-icons/fa";
 import Cart from "../Cart/Cart";
@@ -18,12 +20,12 @@ const Home = () => {
     const isExist = selectLanguage.find((item) => item.id === language.id);
 
     if (isExist) {
-      return alert("You have already added");
+      return toast("You have already added");
     } else {
       let count = parseFloat(language.reading_time);
 
       if (totalHr + count > 20) {
-        return alert("You cannot add more than 20");
+        return toast("You cannot add more than 20");
       } else {
         setTotalHr(totalHr + count);
         setRemaining(20 - (totalHr + count)); 
@@ -70,6 +72,7 @@ const Home = () => {
                     >
                       Select
                     </button>
+                    <ToastContainer></ToastContainer>
                   </div>
                 </div>
               </div>
