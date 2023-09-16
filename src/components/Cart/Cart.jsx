@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
 const Cart = ({selectLanguage, remaining, totalHr}) => {
-    // console.log(selectLanguages)
-    console.log(remaining);
+
     return (
         <div className="">
             <h3 className="pl-3 text-lg font-bold text-blue-600 pt-3">Credit Hour Remaining {remaining} hr</h3>

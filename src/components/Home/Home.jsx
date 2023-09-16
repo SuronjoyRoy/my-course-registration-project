@@ -26,7 +26,7 @@ const Home = () => {
         return alert("You cannot add more than 20");
       } else {
         setTotalHr(totalHr + count);
-        setRemaining(20 - totalHr); 
+        setRemaining(20 - (totalHr + count)); 
         setSelectLanguages([...selectLanguage, language]);
       }
     }
